@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Namaz Vakitleri</title>
+<style>
+  :root { --bg:#f6f4ef; --ink:#1c2321; --soft:#4b5551; --faint:#7c8783; --accent:#0e4c56; --wash:#e7f1f1; --rule:#dad5c9; --code:#eef2f0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12181a; --ink:#eef1ee; --soft:#b7c2bd; --faint:#7f8c87; --accent:#6fc3c8; --wash:#1c2f31; --rule:#2b3634; --code:#1d2725; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  .page { max-width:760px; margin:0 auto; padding:3rem 16px 5rem; }
+  header { border-bottom:2px solid var(--ink); padding-bottom:1.5rem; margin-bottom:2rem; }
+  h1 { font-family:Georgia,serif; font-size:clamp(1.8rem,4.5vw,2.4rem); line-height:1.15; margin:0 0 1rem; }
+  .meta { display:flex; flex-wrap:wrap; gap:.3rem 1.4rem; font-size:.85rem; color:var(--faint); }
+  h2 { font-family:Georgia,serif; font-size:1.3rem; margin:2.2rem 0 .8rem; padding-bottom:.5rem; border-bottom:1px solid var(--rule); }
+  p, li, td { color:var(--soft); }
+  strong { color:var(--ink); }
+  a { color:var(--accent); }
+  code { background:var(--code); padding:.1rem .35rem; border-radius:3px; font-size:.88em; }
+  .wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.93rem; }
+  th, td { text-align:left; padding:.65rem .7rem; border-bottom:1px solid var(--rule); vertical-align:top; }
+  th { font-size:.75rem; text-transform:uppercase; letter-spacing:.06em; color:var(--faint); }
+  td.l { color:var(--ink); font-weight:600; white-space:nowrap; }
+  .callout { background:var(--wash); border-left:3px solid var(--accent); padding:.8rem 1rem; border-radius:0 4px 4px 0; color:var(--soft); }
+  footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--rule); font-size:.85rem; color:var(--faint); display:flex; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Namaz Vakitleri — Gizlilik Politikası</h1>
+    <div class="meta">
+      <span><strong>Uygulama:</strong> Namaz Vakitleri</span>
+      <span><strong>Paket kimliği:</strong> com.littleehero.namazvakitleri</span>
+      <span><strong>Yürürlük tarihi:</strong> 08.09.2026</span>
+      <span><strong>Sürüm:</strong> 1.0</span>
+    </div>
+  </header>
+
+  <h2 id="giris">Giriş</h2>
+  <p>Bu gizlilik politikası, <strong>Namaz Vakitleri</strong> mobil uygulamasının (Android paket kimliği: <code>com.littleehero.namazvakitleri</code>) kullanıcı verilerini nasıl işlediğini açıklar. Uygulama namaz vakitlerini, kıble yönünü ve ilgili bildirimleri sunmak amacıyla geliştirilmiştir ve herhangi bir kullanıcı hesabı veya arka uç sunucusu bulundurmaz — hesaplamaların tamamı cihazınızda yapılır.</p>
+
+  <h2 id="veriler">Topladığımız Veriler</h2>
+  <p>Uygulama aşağıdaki veri kategorilerine erişebilir veya bunları işleyebilir:</p>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Veri türü</th><th>Amaç</th><th>Saklama</th></tr></thead>
+      <tbody>
+        <tr><td class="l">Konum</td><td>Namaz vakitlerini ve kıble yönünü hesaplamak için GPS koordinatları kullanılır. Konum izni verilmezse, elle bir şehir seçebilirsiniz.</td><td>yalnızca cihazda</td></tr>
+        <tr><td class="l">Bildirim izni</td><td>Vakit girişlerinde yerel bildirim gönderebilmek için kullanılır.</td><td>yalnızca cihazda</td></tr>
+        <tr><td class="l">Reklam kimliği</td><td>Google AdMob tarafından banner reklamların gösterilmesi ve ölçümlenmesi için kullanılır.</td><td>Google AdMob</td></tr>
+        <tr><td class="l">Uygulama ayarları</td><td>Seçilen hesaplama metodu, şehir, bildirim tercihleri gibi ayarlar.</td><td>yalnızca cihazda</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Konum ve hesaplama verileri cihazınızdaki yerel depolamada (AsyncStorage) tutulur ve bizim ya da üçüncü bir tarafın sunucusuna gönderilmez. İnternet bağlantısı gerekmeden çalışır; yalnızca reklamların yüklenmesi ve ilk konum tespiti internet erişimi gerektirebilir.</p>
+
+  <h2 id="ucuncu-taraf">Üçüncü Taraf Hizmetler</h2>
+  <p>Uygulama, reklam göstermek amacıyla <strong>Google AdMob</strong> hizmetini kullanır. AdMob, reklam kişiselleştirme ve ölçüm için cihazınızın reklam kimliğini ve ilgili teknik verileri işleyebilir. Bu verilerin Google tarafından nasıl işlendiği hakkında bilgi için <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>'nı inceleyebilirsiniz.</p>
+  <p class="callout">Cihaz ayarlarınızdan reklam kişiselleştirmeyi sınırlayabilir veya reklam kimliğinizi sıfırlayabilirsiniz (Android: Ayarlar → Google → Reklamlar).</p>
+
+  <h2 id="paylasim">Veri Paylaşımı</h2>
+  <p>Namaz Vakitleri'nin kendi sunucusu veya veritabanı yoktur; bu nedenle topladığımız hiçbir kişisel veriyi kendi altyapımızda saklamayız ya da pazarlama amacıyla üçüncü taraflarla paylaşmayız. Yukarıda belirtilen AdMob entegrasyonu dışında veri aktarımı yapılmaz.</p>
+
+  <h2 id="guvenlik">Veri Güvenliği</h2>
+  <p>Konum ve ayar verileri yalnızca cihazınızın korumalı yerel depolama alanında tutulur. Uygulamayı sildiğinizde bu veriler cihazınızdan tamamen kaldırılır.</p>
+
+  <h2 id="cocuklar">Çocukların Gizliliği</h2>
+  <p>Uygulama genel kitleye yöneliktir ve bilerek 13 yaş altı çocuklardan kişisel veri toplamaz. Uygulamayı bir çocuğun kullandığını ve izinsiz veri paylaşımı olduğunu düşünüyorsanız lütfen aşağıdaki iletişim adresinden bize ulaşın.</p>
+
+  <h2 id="haklar">Haklarınız</h2>
+  <ul>
+    <li>Konum ve bildirim izinlerini dilediğiniz zaman cihaz Ayarlar menüsünden geri alabilirsiniz.</li>
+    <li>Konum izni vermeden, manuel şehir seçimiyle uygulamayı kullanabilirsiniz.</li>
+    <li>Uygulamayı kaldırarak cihazınızda tutulan tüm yerel verileri silebilirsiniz.</li>
+  </ul>
+
+  <h2 id="degisiklik">Politika Değişiklikleri</h2>
+  <p>Bu politika zaman zaman güncellenebilir. Önemli değişiklikler bu sayfada yayınlanacak ve sayfanın üst kısmındaki yürürlük tarihi güncellenecektir.</p>
+
+  <h2 id="iletisim">İletişim</h2>
+  <p>Bu gizlilik politikasıyla ilgili sorularınız için bize <a href="mailto:litttleehero@gmail.com">litttleehero@gmail.com</a> adresinden ulaşabilirsiniz.</p>
+
+  <footer>
+    <span>© 2026 Namaz Vakitleri</span>
+    <a href="index.html">Ana sayfa</a>
+  </footer>
+</div>
+</body>
+</html>
